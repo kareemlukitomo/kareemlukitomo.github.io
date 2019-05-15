@@ -262,5 +262,29 @@
     "prod_endpoint": "",
     "stag_config": "",
     "prod_config": ""
+  },
+  {
+    "id": 25,
+    "project_type": "frontend",
+    "name": "twoc-app",
+    "project_id": 72,
+    "stag_branch": "develop",
+    "prod_branch": "master",
+    "stag_endpoint": "",
+    "prod_endpoint": "",
+    "stag_config": "",
+    "prod_config": ""
+  },
+  {
+    "id": 26,
+    "project_type": "core",
+    "name": "Inbox API",
+    "project_id": 171,
+    "stag_branch": "develop",
+    "prod_branch": "master",
+    "stag_endpoint": "",
+    "prod_endpoint": "",
+    "stag_config": "",
+    "prod_config": ""
   }
 ]
