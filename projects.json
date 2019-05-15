@@ -30,7 +30,7 @@
     "project_id": 26,
     "stag_branch": "develop",
     "prod_branch": "master",
-    "stag_endpoint": "",
+    "stag_endpoint": "https://stag.supersoccer.tv/api/v2/videos/sstv",
     "prod_endpoint": "",
     "stag_config": "staging-core-sg/core/videos/deployment.yaml",
     "prod_config": ""
