@@ -30,7 +30,7 @@
     "project_id": 26,
     "stag_branch": "develop",
     "prod_branch": "master",
-    "stag_endpoint": "https://stag.supersoccer.tv/api/v2/videos/sstv",
+    "stag_endpoint": "",
     "prod_endpoint": "",
     "stag_config": "staging-core-sg/core/videos/deployment.yaml",
     "prod_config": ""
@@ -133,7 +133,7 @@
   },
   {
     "id": 14,
-    "project_type": "core",
+    "project_type": "ads",
     "name": "ads-rubik",
     "project_id": 164,
     "stag_branch": "develop",
@@ -145,7 +145,7 @@
   },
   {
     "id": 15,
-    "project_type": "core",
+    "project_type": "frontend",
     "name": "sstv-v4-web",
     "project_id": 228,
     "stag_branch": "develop",
