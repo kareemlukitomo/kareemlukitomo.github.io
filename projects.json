@@ -24,90 +24,6 @@
     "prod_config": null
   },
   {
-    "id": 16,
-    "project_type": "infra",
-    "name": "NGINX Load Balancer",
-    "project_id": 472,
-    "stag_branch": "staging",
-    "prod_branch": "production",
-    "stag_endpoint": null,
-    "prod_endpoint": null,
-    "stag_config": null,
-    "prod_config": null
-  },
-  {
-    "id": 13,
-    "project_type": "frontend",
-    "name": "misty-app",
-    "project_id": 116,
-    "stag_branch": "develop",
-    "prod_branch": "master",
-    "stag_endpoint": null,
-    "prod_endpoint": null,
-    "stag_config": null,
-    "prod_config": null
-  },
-  {
-    "id": 15,
-    "project_type": "frontend",
-    "name": "sstv-v4-web",
-    "project_id": 228,
-    "stag_branch": "develop",
-    "prod_branch": "master",
-    "stag_endpoint": null,
-    "prod_endpoint": null,
-    "stag_config": null,
-    "prod_config": null
-  },
-  {
-    "id": 18,
-    "project_type": "frontend",
-    "name": "Accounts Web",
-    "project_id": 33,
-    "stag_branch": "develop",
-    "prod_branch": "master",
-    "stag_endpoint": null,
-    "prod_endpoint": null,
-    "stag_config": null,
-    "prod_config": null
-  },
-  {
-    "id": 20,
-    "project_type": "frontend",
-    "name": "mola-web",
-    "project_id": 3,
-    "stag_branch": "develop",
-    "prod_branch": "master",
-    "stag_endpoint": null,
-    "prod_endpoint": null,
-    "stag_config": null,
-    "prod_config": null
-  },
-  {
-    "id": 22,
-    "project_type": "frontend",
-    "name": "mola-react-native",
-    "project_id": 42,
-    "stag_branch": "develop",
-    "prod_branch": "master",
-    "stag_endpoint": null,
-    "prod_endpoint": null,
-    "stag_config": null,
-    "prod_config": null
-  },
-  {
-    "id": 25,
-    "project_type": "frontend",
-    "name": "twoc-app",
-    "project_id": 72,
-    "stag_branch": "develop",
-    "prod_branch": "master",
-    "stag_endpoint": null,
-    "prod_endpoint": null,
-    "stag_config": null,
-    "prod_config": null
-  },
-  {
     "id": 5,
     "project_type": "core",
     "name": "Videos API",
@@ -204,6 +120,54 @@
     "prod_config": "core/subscriptions/deployment.yaml"
   },
   {
+    "id": 13,
+    "project_type": "misty",
+    "name": "misty-app",
+    "project_id": 116,
+    "stag_branch": "develop",
+    "prod_branch": "master",
+    "stag_endpoint": null,
+    "prod_endpoint": null,
+    "stag_config": null,
+    "prod_config": null
+  },
+  {
+    "id": 14,
+    "project_type": "ads",
+    "name": "ads-rubik",
+    "project_id": 164,
+    "stag_branch": "develop",
+    "prod_branch": "master",
+    "stag_endpoint": null,
+    "prod_endpoint": null,
+    "stag_config": null,
+    "prod_config": null
+  },
+  {
+    "id": 15,
+    "project_type": "frontend",
+    "name": "sstv-v4-web",
+    "project_id": 228,
+    "stag_branch": "develop",
+    "prod_branch": "master",
+    "stag_endpoint": null,
+    "prod_endpoint": null,
+    "stag_config": null,
+    "prod_config": null
+  },
+  {
+    "id": 16,
+    "project_type": "infra",
+    "name": "NGINX Load Balancer",
+    "project_id": 472,
+    "stag_branch": "staging",
+    "prod_branch": "production",
+    "stag_endpoint": null,
+    "prod_endpoint": null,
+    "stag_config": null,
+    "prod_config": null
+  },
+  {
     "id": 17,
     "project_type": "core",
     "name": "Config API",
@@ -214,6 +178,18 @@
     "prod_endpoint": null,
     "stag_config": "staging-core-sg/core/config/deployment.yaml",
     "prod_config": "core/config/deployment.yaml"
+  },
+  {
+    "id": 18,
+    "project_type": "frontend",
+    "name": "Accounts Web",
+    "project_id": 33,
+    "stag_branch": "develop",
+    "prod_branch": "master",
+    "stag_endpoint": null,
+    "prod_endpoint": null,
+    "stag_config": null,
+    "prod_config": null
   },
   {
     "id": 19,
@@ -228,6 +204,18 @@
     "prod_config": "core/chat/deployment.yaml"
   },
   {
+    "id": 20,
+    "project_type": "mola",
+    "name": "mola-web",
+    "project_id": 3,
+    "stag_branch": "develop",
+    "prod_branch": "master",
+    "stag_endpoint": null,
+    "prod_endpoint": null,
+    "stag_config": null,
+    "prod_config": null
+  },
+  {
     "id": 21,
     "project_type": "core",
     "name": "Sessions API",
@@ -238,6 +226,18 @@
     "prod_endpoint": null,
     "stag_config": "staging-core-sg/core/discussions/deployment.yaml",
     "prod_config": "core/discussions/deployment.yaml"
+  },
+  {
+    "id": 22,
+    "project_type": "mola",
+    "name": "mola-react-native",
+    "project_id": 42,
+    "stag_branch": "develop",
+    "prod_branch": "master",
+    "stag_endpoint": null,
+    "prod_endpoint": null,
+    "stag_config": null,
+    "prod_config": null
   },
   {
     "id": 23,
@@ -264,6 +264,18 @@
     "prod_config": null
   },
   {
+    "id": 25,
+    "project_type": "frontend",
+    "name": "twoc-app",
+    "project_id": 72,
+    "stag_branch": "develop",
+    "prod_branch": "master",
+    "stag_endpoint": null,
+    "prod_endpoint": null,
+    "stag_config": null,
+    "prod_config": null
+  },
+  {
     "id": 26,
     "project_type": "core",
     "name": "Inbox API",
@@ -276,12 +288,12 @@
     "prod_config": null
   },
   {
-    "id": 14,
-    "project_type": "ads",
-    "name": "ads-rubik",
-    "project_id": 164,
+    "id": 27,
+    "project_type": "mobile",
+    "name": "sstv-v4-react-native",
+    "project_id": 222,
     "stag_branch": "develop",
-    "prod_branch": "master",
+    "prod_branch": "develop-rc",
     "stag_endpoint": null,
     "prod_endpoint": null,
     "stag_config": null,
