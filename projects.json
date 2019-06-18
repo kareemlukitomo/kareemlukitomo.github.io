@@ -1,5 +1,17 @@
 [
   {
+    "id": 99,
+    "project_type": "infra",
+    "name": "prod-accounts-sg-cluster",
+    "project_id": 195,
+    "stag_branch": null,
+    "prod_branch": "master",
+    "stag_endpoint": null,
+    "prod_endpoint": null,
+    "stag_config": null,
+    "prod_config": null
+  },
+  {
     "id": 3,
     "project_type": "infra",
     "name": "prod-core-sg-cluster",
