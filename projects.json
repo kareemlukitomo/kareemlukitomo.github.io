@@ -1,17 +1,5 @@
 [
   {
-    "id": 99,
-    "project_type": "infra",
-    "name": "prod-accounts-sg-cluster",
-    "project_id": 195,
-    "stag_branch": null,
-    "prod_branch": "master",
-    "stag_endpoint": null,
-    "prod_endpoint": null,
-    "stag_config": null,
-    "prod_config": null
-  },
-  {
     "id": 3,
     "project_type": "infra",
     "name": "prod-core-sg-cluster",
@@ -310,5 +298,41 @@
     "prod_endpoint": null,
     "stag_config": null,
     "prod_config": null
+  },
+  {
+    "id": 28,
+    "project_type": "core",
+    "name": "Validator-API",
+    "project_id": 566,
+    "stag_branch": "develop",
+    "prod_branch": "master",
+    "stag_endpoint": null,
+    "prod_endpoint": null,
+    "stag_config": "staging-accounts-sg/accounts/validator/deployment.yaml",
+    "prod_config": "accounts/validator/deployment.yaml"
+  },
+  {
+    "id": 29,
+    "project_type": "core",
+    "name": "gojunkyard",
+    "project_id": 90,
+    "stag_branch": "master",
+    "prod_branch": "alpha",
+    "stag_endpoint": null,
+    "prod_endpoint": null,
+    "stag_config": "",
+    "prod_config": ""
+  },
+  {
+    "id": 99,
+    "project_type": "infra",
+    "name": "prod-accounts-sg-cluster",
+    "project_id": 195,
+    "stag_branch": "",
+    "prod_branch": "master",
+    "stag_endpoint": null,
+    "prod_endpoint": null,
+    "stag_config": "",
+    "prod_config": ""
   }
 ]
